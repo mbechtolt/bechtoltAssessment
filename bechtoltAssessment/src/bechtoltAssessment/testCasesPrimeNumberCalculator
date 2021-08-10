@@ -1,0 +1,8 @@
+Test cases for Prime Number Calculation:
+
+1.  Ensure project runs in the console when running without error.
+2.  Ensure "Please enter a positive integer greater than 1 to display all prime numbers from 0 to your entered value:" displays in the console after running the project.
+3.  Enter a value in the console that is not an integer.
+4.  Enter an integer in the console less than 2.
+5.  Enter a value larger than the Java maximum int value (2,147,483,647).
+6.  Enter a value larger than the console will allow.  Click into the console, ctrl+a, ctrl+c, then paste (ctrl+v) into a text editor similar to Notepad to ensure the primes display.

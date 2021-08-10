@@ -1,4 +1,4 @@
-package bechtoltAssessment;
+package bechtoltPrimeCalculation;
 
 import java.util.Arrays;
 import java.util.Scanner;

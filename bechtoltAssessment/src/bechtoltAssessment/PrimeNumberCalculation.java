@@ -21,8 +21,9 @@ public class PrimeNumberCalculation
 				System.out.println("Please enter a valid integer.");
 				scanner.next();
 			}
-			
+
 			userInt = Integer.parseInt(scanner.next());
+
 		} while (userInt <= 1);
 		
 		System.out.printf("The prime numbers between 0 and %d are: \n", userInt);
@@ -32,6 +33,7 @@ public class PrimeNumberCalculation
 		//set boolean values to true
 		Arrays.fill(isPrime, true);
 		
+		//set boolean values to false if index is not a prime
 		for (int i=2; i <= Math.sqrt(userInt); i++)
 		{
 			if (isPrime[i])
@@ -43,6 +45,7 @@ public class PrimeNumberCalculation
 			}
 		}
 		
+		//output prime values in console
 		for (int i = 2; i <= userInt; i++)
 		{
 			if (isPrime[i])
